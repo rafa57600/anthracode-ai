@@ -6,7 +6,7 @@ This product is a fork of and includes software from:
   OpenCode
   Copyright (c) 2025 opencode
   Licensed under the MIT License.
-  https://github.com/sst/opencode
+  https://github.com/anomalyco/opencode
 
 The AnthraCode distributed binaries bundle third-party open-source software,
 including (non-exhaustive) the Vercel AI SDK and provider packages, Effect,

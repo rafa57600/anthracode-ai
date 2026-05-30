@@ -2,7 +2,7 @@
 
 # AnthraCode
 
-**An AI coding assistant for your terminal — a hardened fork of [OpenCode](https://github.com/sst/opencode) with production-quality fixes, new tools, and first-class Windows + Linux support.**
+**An AI coding assistant for your terminal — a hardened fork of [OpenCode](https://github.com/anomalyco/opencode) with production-quality fixes, new tools, and first-class Windows + Linux support.**
 
 ```bash
 npm install -g anthracode-ai
@@ -132,7 +132,7 @@ AnthraCode checks for updates on launch (cached 2h).
 
 ## Relation to OpenCode
 
-AnthraCode is a fork of [OpenCode](https://github.com/sst/opencode), maintained by [@rafa57600](https://github.com/rafa57600). It tracks upstream releases with selective cherry-picks, production bug fixes, and AnthraCode-specific features.
+AnthraCode is a fork of [OpenCode](https://github.com/anomalyco/opencode), maintained by [@rafa57600](https://github.com/rafa57600). It tracks upstream releases with selective cherry-picks, production bug fixes, and AnthraCode-specific features.
 
 ---
 
