@@ -7,8 +7,10 @@ not use them.
 ## What this covers
 
 "AnthraCode", the AnthraCode word mark, and the AnthraCode logo (the "Marks") are
-trademarks of the AnthraCode project. The MIT License grants you broad rights to
-the code; it does **not** grant any right to use the Marks.
+**unregistered trademarks (™)** of Silo Khalaf (*entrepreneur individuel*, RAFA57;
+see `LEGAL_NOTICE.md`), asserted under applicable common-law / unfair-competition
+rules. The MIT License grants you broad rights to the code; it does **not** grant
+any right to use the Marks.
 
 ## You may, without asking
 

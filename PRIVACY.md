@@ -11,6 +11,10 @@ PostHog, Sentry, Amplitude, Mixpanel, or similar).
 This policy explains every situation in which data leaves your machine. It is
 based on an audit of the source code, not generic boilerplate.
 
+**Data controller:** Silo Khalaf, *entrepreneur individuel* (RAFA57), 6 Faubourg
+Sainte-Croix, 57600 Forbach, France — **privacy@anthracode.com** (see
+`LEGAL_NOTICE.md`).
+
 ---
 
 ## 1. What stays on your machine
@@ -92,13 +96,30 @@ applicable age in your jurisdiction).
   via the environment flags listed above (see `FLAGS.md` in the source repo).
 - Telemetry is off unless you opt in.
 
-## 6. Changes
+## 6. Your rights (GDPR / EU)
+
+Because AnthraCode is local-first, we (the publisher) do not hold a central store
+of your personal data — your prompts, code, and history stay on your device, and
+we operate no analytics backend. Where the EU General Data Protection Regulation
+(GDPR) applies, you have the rights of access, rectification, erasure,
+restriction, portability, and objection regarding any personal data we would
+process. Since we hold essentially none, most requests are satisfied locally by
+you (deleting your local data) or by the third-party provider you chose (for data
+you sent them).
+
+To exercise a right against us, contact **privacy@anthracode.com**. If you
+believe we have mishandled your data, you may lodge a complaint with the French
+data-protection authority, the **CNIL** (https://www.cnil.fr), or your local EU
+supervisory authority.
+
+## 7. Changes
 
 Material changes are reflected by the "Last updated" date and published here.
 
-## 7. Contact
+## 8. Contact
 
-Privacy questions: **privacy@anthracode.com**
+Privacy questions / data controller: **privacy@anthracode.com**
+Silo Khalaf (RAFA57), Forbach, France — see `LEGAL_NOTICE.md`.
 
 > This document describes the behavior of the open-source AnthraCode client. It
 > is provided for transparency and does not, by itself, constitute legal advice.

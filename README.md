@@ -149,6 +149,7 @@ SDKs**. See [PRIVACY.md](PRIVACY.md) for the full, code-audited data-flow list.
 | Document | What it covers |
 |----------|----------------|
 | [LICENSE](LICENSE) | MIT (source code) + trademark reservation |
+| [LEGAL_NOTICE.md](LEGAL_NOTICE.md) | Publisher identity (mentions légales) |
 | [TERMS.md](TERMS.md) | Terms of use for the distributed binaries |
 | [PRIVACY.md](PRIVACY.md) | What data leaves your machine, and when |
 | [SECURITY.md](SECURITY.md) | How to report a vulnerability |

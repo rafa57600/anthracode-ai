@@ -4,8 +4,10 @@
 
 These Terms of Use ("Terms") govern your use of the **AnthraCode** command-line
 application, its distributed binaries, and related services (collectively, the
-"Software"), published at `anthracode-ai` on npm and maintained by the AnthraCode
-project ("we", "us"). By installing, running, or using the Software you agree to
+"Software"), published at `anthracode-ai` on npm. The Software is published by
+**Silo Khalaf**, *entrepreneur individuel* (micro-entreprise), trading as RAFA57,
+SIREN 102 313 681, 6 Faubourg Sainte-Croix, 57600 Forbach, France ("we", "us";
+see `LEGAL_NOTICE.md`). By installing, running, or using the Software you agree to
 these Terms. If you do not agree, do not use the Software.
 
 > **Relationship to the open-source license.** AnthraCode's source code is
@@ -16,12 +18,19 @@ these Terms. If you do not agree, do not use the Software.
 
 ---
 
-## 1. License to use the binaries
+## 1. License to use the binaries — the Software is free
 
-Subject to these Terms, we grant you a personal, worldwide, royalty-free,
-non-exclusive, revocable license to download, install, and run the AnthraCode
-binaries for any lawful purpose, including commercial use. The MIT License
-governs the source code; this section governs the pre-built binaries we publish.
+The AnthraCode Software is provided **free of charge**. Subject to these Terms, we
+grant you a personal, worldwide, royalty-free, non-exclusive, revocable license to
+download, install, and run the AnthraCode binaries for any lawful purpose,
+including commercial use. The MIT License governs the source code; this section
+governs the pre-built binaries we publish.
+
+**Provider costs are not ours.** AnthraCode connects to third-party AI providers.
+Any usage fees are charged by those providers directly to you — either against an
+account you pay them for, or under an API key you supply. We do not bill you, do
+not receive those fees, and are not responsible for charges, quotas, or billing
+disputes between you and any provider.
 
 ## 2. Your responsibilities
 
@@ -74,12 +83,16 @@ ITS MAINTAINERS, OR CONTRIBUTORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
 SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR FOR ANY LOSS OF PROFITS, DATA,
 USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, ARISING OUT OF OR RELATING TO YOUR
 USE OF (OR INABILITY TO USE) THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
-SUCH DAMAGES. OUR TOTAL AGGREGATE LIABILITY FOR ALL CLAIMS RELATING TO THE
-SOFTWARE WILL NOT EXCEED THE GREATER OF (a) THE AMOUNT YOU PAID US FOR THE
-SOFTWARE IN THE 12 MONTHS BEFORE THE CLAIM, OR (b) USD 50.
+SUCH DAMAGES. BECAUSE THE SOFTWARE IS PROVIDED FREE OF CHARGE, OUR TOTAL
+AGGREGATE LIABILITY FOR ALL CLAIMS RELATING TO THE SOFTWARE WILL NOT EXCEED THE
+AMOUNT YOU PAID US FOR THE SOFTWARE — WHICH IS NORMALLY ZERO. This does not cover
+fees you pay third-party AI providers, which are solely between you and them.
 
-Some jurisdictions do not allow certain limitations; in those places the above
-applies to the fullest extent permitted.
+Nothing in these Terms excludes or limits our liability where it cannot lawfully
+be excluded or limited — including, under French and EU law, liability for death
+or personal injury caused by negligence, for fraud or fraudulent
+misrepresentation, or for gross negligence (*faute lourde* or *dolosive*). Your
+mandatory rights as a consumer, where applicable, remain unaffected.
 
 ## 7. Indemnification
 
@@ -108,9 +121,11 @@ MIT-licensed source-code rights survive independently.
 
 ## 11. Governing law
 
-These Terms are governed by the laws of **[INSERT JURISDICTION]**, without regard
-to conflict-of-law rules. Courts located in **[INSERT JURISDICTION]** will have
-exclusive jurisdiction, to the extent permitted by applicable law.
+These Terms are governed by the laws of **France**, without regard to
+conflict-of-law rules. The competent French courts will have jurisdiction, to the
+extent permitted by applicable law. Where you use the Software as a consumer, the
+mandatory consumer-protection rules of your country of residence within the
+EU/EEA continue to apply and are not overridden by this clause.
 
 ## 12. Contact
 
