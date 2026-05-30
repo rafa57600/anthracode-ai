@@ -1,0 +1,17 @@
+# This is the PUBLIC showcase repo — docs only. No source, ever.
+# Hard guard: ignore anything that looks like source or build output so it can
+# never be committed here by accident.
+node_modules/
+dist/
+build/
+*.ts
+*.tsx
+*.js
+*.mjs
+*.cjs
+packages/
+src/
+.env
+.env.*
+*.key
+*.pem
