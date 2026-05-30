@@ -1,0 +1,24 @@
+AnthraCode
+Copyright (c) 2026 AnthraCode (https://anthracode.com)
+
+This product is a fork of and includes software from:
+
+  OpenCode
+  Copyright (c) 2025 opencode
+  Licensed under the MIT License.
+  https://github.com/sst/opencode
+
+The AnthraCode distributed binaries bundle third-party open-source software,
+including (non-exhaustive) the Vercel AI SDK and provider packages, Effect,
+Hono, OpenTelemetry libraries, tree-sitter grammars, and other dependencies.
+These components are distributed under their respective licenses (predominantly
+MIT and Apache-2.0). Each component retains its own copyright and license; this
+NOTICE does not modify those terms.
+
+A complete, machine-readable list of bundled dependencies and their licenses is
+available from the published npm package metadata:
+
+  npm view anthracode-ai dependencies
+
+For the full text of the MIT License governing AnthraCode's own source code,
+see the LICENSE file in this repository.

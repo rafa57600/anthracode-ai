@@ -136,6 +136,32 @@ AnthraCode is a fork of [OpenCode](https://github.com/sst/opencode), maintained 
 
 ---
 
+## Privacy
+
+AnthraCode is **local-first** — your code and prompts stay on your machine and are
+sent only to the AI provider you configure. There are **no analytics or tracking
+SDKs**. See [PRIVACY.md](PRIVACY.md) for the full, code-audited data-flow list.
+
+---
+
+## Legal & community
+
+| Document | What it covers |
+|----------|----------------|
+| [LICENSE](LICENSE) | MIT (source code) + trademark reservation |
+| [TERMS.md](TERMS.md) | Terms of use for the distributed binaries |
+| [PRIVACY.md](PRIVACY.md) | What data leaves your machine, and when |
+| [SECURITY.md](SECURITY.md) | How to report a vulnerability |
+| [TRADEMARK.md](TRADEMARK.md) | Use of the AnthraCode name and logo |
+| [NOTICE](NOTICE) | Third-party attributions |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to report bugs and improve docs |
+| [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Community standards |
+
+---
+
 ## License
 
-[MIT](LICENSE) — retains the original OpenCode copyright. See `LICENSE`.
+AnthraCode's **source code** is licensed under the [MIT License](LICENSE) (the
+original OpenCode copyright is retained). The **AnthraCode name and logo** are
+trademarks — see [TRADEMARK.md](TRADEMARK.md). Use of the distributed binaries is
+additionally governed by [TERMS.md](TERMS.md).
