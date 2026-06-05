@@ -24,17 +24,58 @@ anthracode
 
 ## Preview
 
-> No media files are stored in this repository. The demos below are linked from
-> the Anthracode website so the repo stays lightweight.
+Anthracode is built as a practical coding agent: it remembers context, turns
+repeatable prompts into reusable skills, helps you stay focused, and runs where
+developers already work.
 
-| Demo | What it shows |
-| --- | --- |
-| [▶ Windows native](https://www.anthracode.com/features/windows-native.mp4) | Anthracode running natively on Windows without WSL. |
-| [▶ Background processes](https://www.anthracode.com/features/background-process-manager.mp4) | Long-running process tracking and terminal control. |
-| [▶ Memory](https://www.anthracode.com/features/memory.mp4) | Persistent context that survives across sessions. |
-| [▶ Skills](https://www.anthracode.com/features/skills.mp4) | Specialized workflows loaded on demand. |
-| [▶ LSP tools](https://www.anthracode.com/features/lsp-web.mp4) | Code intelligence: definitions, references, hover, symbols. |
-| [▶ Git init flow](https://www.anthracode.com/features/git-init.mp4) | Project initialization and repo-aware workflows. |
+<p align="center">
+  <img src="assets/readme/anthracode-overview.png" alt="Anthracode overview poster" width="420" />
+</p>
+
+### Remember more
+
+Anthracode keeps useful project knowledge across sessions so you do not have to
+explain the same repo, conventions, or workflow twice.
+
+<p align="center">
+  <img src="assets/readme/anthracode-memory.png" alt="Anthracode memory poster" width="420" />
+</p>
+
+### Build reusable skills
+
+Convert repetitive workflows into skills: code review, API integration, auth
+flows, database migrations, test suites, deployment scripts, and more.
+
+<p align="center">
+  <img src="assets/readme/anthracode-skills.png" alt="Anthracode skills poster" width="420" />
+</p>
+
+### Ship safer code
+
+Use permission gates, sandboxed execution, privacy-first local workflows, and
+security-focused agents to review risky changes before they ship.
+
+<p align="center">
+  <img src="assets/readme/anthracode-security.png" alt="Anthracode security poster" width="420" />
+</p>
+
+### Stay focused
+
+Anthracode handles repetitive terminal work so you can spend more time on design,
+architecture, debugging, and high-impact code.
+
+<p align="center">
+  <img src="assets/readme/anthracode-focus.png" alt="Anthracode focus poster" width="420" />
+</p>
+
+### Work where you work
+
+Run Anthracode natively on Windows x64 or Linux x64, including WSL, with one CLI
+experience across environments.
+
+<p align="center">
+  <img src="assets/readme/anthracode-compatible.png" alt="Anthracode compatibility poster" width="420" />
+</p>
 
 ---
 
