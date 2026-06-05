@@ -24,78 +24,61 @@ anthracode
 
 ## Preview
 
-Short demos from the Anthracode web presentation. They are stored in this repo in
-[`assets/readme/`](assets/readme/). GitHub does not always render embedded MP4
-players inside README files, so each demo also has a direct **Watch MP4** link.
+Short demos from the Anthracode web presentation, rendered inline so the README
+feels closer to the website experience.
 
 ### Native Windows terminal
 
 Run Anthracode directly in PowerShell or Windows Terminal — no WSL required.
 
-[▶ Watch MP4](assets/readme/windows-native.mp4)
-
-<video src="assets/readme/windows-native.mp4" controls width="100%"></video>
+<img src="assets/readme/windows-native.gif" alt="Anthracode running natively in PowerShell without WSL" width="100%">
 
 ### Background process manager
 
 Start long-running commands, keep them visible, and reconnect to their output
 without losing control of your session.
 
-[▶ Watch MP4](assets/readme/background-process-manager.mp4)
-
-<video src="assets/readme/background-process-manager.mp4" controls width="100%"></video>
+<img src="assets/readme/background-process-manager.gif" alt="Anthracode background process manager demo" width="100%">
 
 ### Memory for decisions
 
 Anthracode remembers important project knowledge so you do not have to explain
 the same decisions again next week.
 
-[▶ Watch MP4](assets/readme/memory-decisions.mp4)
-
-<video src="assets/readme/memory-decisions.mp4" controls width="100%"></video>
+<img src="assets/readme/memory-decisions.gif" alt="Anthracode remembering project decisions across sessions" width="100%">
 
 ### Drop-in skills
 
 Add reusable workflows as skills and load the right process when the task needs
 it.
 
-[▶ Watch MP4](assets/readme/skills-extensible.mp4)
-
-<video src="assets/readme/skills-extensible.mp4" controls width="100%"></video>
+<img src="assets/readme/skills-extensible.gif" alt="Anthracode drop-in skills workflow demo" width="100%">
 
 ### Type-aware and internet-aware
 
 Use code intelligence and web context together: definitions, references, symbols,
 docs, and current information in one terminal workflow.
 
-[▶ Watch MP4](assets/readme/type-aware-internet-aware.mp4)
-
-<video src="assets/readme/type-aware-internet-aware.mp4" controls width="100%"></video>
+<img src="assets/readme/type-aware-internet-aware.gif" alt="Anthracode using type-aware code intelligence and internet context" width="100%">
 
 ### Safe git workflows
 
 Anthracode warns before irreversible actions and keeps repo changes visible.
 
-[▶ Watch MP4](assets/readme/git-safety-warning.mp4)
-
-<video src="assets/readme/git-safety-warning.mp4" controls width="100%"></video>
+<img src="assets/readme/git-safety-warning.gif" alt="Anthracode warning before irreversible git actions" width="100%">
 
 ### Git init without leaving the prompt
 
 Initialize project instructions and repo context from inside the TUI.
 
-[▶ Watch MP4](assets/readme/git-init.mp4)
-
-<video src="assets/readme/git-init.mp4" controls width="100%"></video>
+<img src="assets/readme/git-init.gif" alt="Anthracode git init and project instruction setup demo" width="100%">
 
 ### Per-invocation overrides
 
 Override model, agent, permissions, or behavior for a single run without changing
 your project defaults.
 
-[▶ Watch MP4](assets/readme/per-invocation-overrides.mp4)
-
-<video src="assets/readme/per-invocation-overrides.mp4" controls width="100%"></video>
+<img src="assets/readme/per-invocation-overrides.gif" alt="Anthracode per-invocation override demo" width="100%">
 
 ---
 
