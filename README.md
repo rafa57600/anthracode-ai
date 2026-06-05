@@ -24,58 +24,61 @@ anthracode
 
 ## Preview
 
-Anthracode is built as a practical coding agent: it remembers context, turns
-repeatable prompts into reusable skills, helps you stay focused, and runs where
-developers already work.
+Short demos from the Anthracode web presentation. They are stored in this repo so
+the README works directly on GitHub.
 
-<p align="center">
-  <img src="assets/readme/anthracode-overview.png" alt="Anthracode overview poster" width="420" />
-</p>
+### Native Windows terminal
 
-### Remember more
+Run Anthracode directly in PowerShell or Windows Terminal — no WSL required.
 
-Anthracode keeps useful project knowledge across sessions so you do not have to
-explain the same repo, conventions, or workflow twice.
+<video src="assets/readme/windows-native.mp4" controls width="100%"></video>
 
-<p align="center">
-  <img src="assets/readme/anthracode-memory.png" alt="Anthracode memory poster" width="420" />
-</p>
+### Background process manager
 
-### Build reusable skills
+Start long-running commands, keep them visible, and reconnect to their output
+without losing control of your session.
 
-Convert repetitive workflows into skills: code review, API integration, auth
-flows, database migrations, test suites, deployment scripts, and more.
+<video src="assets/readme/background-process-manager.mp4" controls width="100%"></video>
 
-<p align="center">
-  <img src="assets/readme/anthracode-skills.png" alt="Anthracode skills poster" width="420" />
-</p>
+### Memory for decisions
 
-### Ship safer code
+Anthracode remembers important project knowledge so you do not have to explain
+the same decisions again next week.
 
-Use permission gates, sandboxed execution, privacy-first local workflows, and
-security-focused agents to review risky changes before they ship.
+<video src="assets/readme/memory-decisions.mp4" controls width="100%"></video>
 
-<p align="center">
-  <img src="assets/readme/anthracode-security.png" alt="Anthracode security poster" width="420" />
-</p>
+### Drop-in skills
 
-### Stay focused
+Add reusable workflows as skills and load the right process when the task needs
+it.
 
-Anthracode handles repetitive terminal work so you can spend more time on design,
-architecture, debugging, and high-impact code.
+<video src="assets/readme/skills-extensible.mp4" controls width="100%"></video>
 
-<p align="center">
-  <img src="assets/readme/anthracode-focus.png" alt="Anthracode focus poster" width="420" />
-</p>
+### Type-aware and internet-aware
 
-### Work where you work
+Use code intelligence and web context together: definitions, references, symbols,
+docs, and current information in one terminal workflow.
 
-Run Anthracode natively on Windows x64 or Linux x64, including WSL, with one CLI
-experience across environments.
+<video src="assets/readme/type-aware-internet-aware.mp4" controls width="100%"></video>
 
-<p align="center">
-  <img src="assets/readme/anthracode-compatible.png" alt="Anthracode compatibility poster" width="420" />
-</p>
+### Safe git workflows
+
+Anthracode warns before irreversible actions and keeps repo changes visible.
+
+<video src="assets/readme/git-safety-warning.mp4" controls width="100%"></video>
+
+### Git init without leaving the prompt
+
+Initialize project instructions and repo context from inside the TUI.
+
+<video src="assets/readme/git-init.mp4" controls width="100%"></video>
+
+### Per-invocation overrides
+
+Override model, agent, permissions, or behavior for a single run without changing
+your project defaults.
+
+<video src="assets/readme/per-invocation-overrides.mp4" controls width="100%"></video>
 
 ---
 
