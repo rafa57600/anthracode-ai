@@ -5,20 +5,81 @@
 **A local-first AI coding agent for your terminal.**
 
 Read, edit, refactor, run commands, manage context, use specialized agents, and
-ship code from a fast TUI — with native Windows x64 and Linux x64 support.
+ship code from a fast TUI, with native Windows x64 and Linux x64 support.
 
 ```bash
 npm install -g anthracode-ai
 anthracode
 ```
 
-[![npm](https://img.shields.io/npm/v/anthracode-ai?color=B8763B&label=anthracode-ai)](https://www.npmjs.com/package/anthracode-ai)
+[![npm version](https://img.shields.io/npm/v/anthracode-ai?color=B8763B&label=anthracode-ai)](https://www.npmjs.com/package/anthracode-ai)
+[![downloads](https://img.shields.io/npm/dm/anthracode-ai?color=B8763B&label=downloads)](https://www.npmjs.com/package/anthracode-ai)
 [![platforms](https://img.shields.io/badge/platforms-Windows%20x64%20%7C%20Linux%20x64-444)](#supported-platforms)
-[![license](https://img.shields.io/badge/license-MIT-444)](LICENSE)
+[![license](https://img.shields.io/badge/releases-MIT-444)](LICENSE)
 
 [Website](https://www.anthracode.com) · [Docs](https://docs.anthracode.com) · [npm](https://www.npmjs.com/package/anthracode-ai) · [Report an issue](../../issues)
 
 </div>
+
+---
+
+## Contents
+
+- [What is Anthracode?](#what-is-anthracode)
+- [What's different](#whats-different)
+- [Preview](#preview)
+- [Highlights](#highlights)
+- [Install](#install)
+- [Quick start](#quick-start)
+- [Supported platforms](#supported-platforms)
+- [Core tools](#core-tools)
+- [Agent modes](#agent-modes)
+- [Configuration](#configuration)
+- [Privacy](#privacy)
+- [Updating](#updating)
+- [Troubleshooting](#troubleshooting)
+- [Project status](#project-status)
+- [Legal & community](#legal--community)
+
+---
+
+## What is Anthracode?
+
+Anthracode is an AI coding assistant that runs in your terminal as a full-screen
+TUI. Connect it to the model and provider you already use, then ask it to inspect,
+edit, test, refactor, and explain your codebase.
+
+Anthracode works on your **local files and local tools**. There is no required
+cloud workspace and no required Anthracode account to use the terminal agent.
+
+It started as a fork of [OpenCode](https://github.com/anomalyco/opencode) and took
+a different bet: keep OpenCode's freedom to use any provider, then add the memory,
+recall, and real terminal sessions that the other terminal agents leave out.
+
+---
+
+## What's different
+
+The honest comparison, current as of the latest release. These are the rows that
+actually change how the agent feels day to day, not an exhaustive feature dump.
+
+| Capability | Anthracode | OpenCode | Claude Code | Codex CLI |
+| --- | --- | --- | --- | --- |
+| Reversible compaction (`/uncompact` restores the full conversation) | ✅ | ❌ | one-way only | ❌ |
+| Full-history recall (search even compacted-away turns) | ✅ | ❌ | ❌ | ❌ |
+| Persistent 4-tier memory (session · espace · account · skill) | ✅ | `AGENTS.md` | single tier | `AGENTS.md` |
+| Interactive terminal sessions (real keystrokes, crash-isolated PTY) | ✅ | ❌ | background shell | ❌ |
+| Background process manager (dev servers, watchers) | first class | ❌ | partial | ❌ |
+| Specialized subagents with scoped permissions | 5 built-in | generic | configure yourself | ❌ |
+| Native Windows TUI (ConPTY, alternate screen, no WSL) | first class | rough | ✅ | WSL recommended |
+| Any model provider, your keys, local LLMs included | ✅ | ✅ | Anthropic only | OpenAI only |
+| Free to start, no subscription required | yes, your keys | ✅ | sub or API | ChatGPT sub |
+| Source code | MIT releases, source private | MIT | proprietary | Apache-2.0 |
+
+Claude Code does run native on Windows and has a background shell; Codex CLI is
+Apache-2.0. The point is the combination: Anthracode is the only one of the four
+with reversible compaction, full-history recall, and crash-isolated interactive
+sessions in one any-provider agent.
 
 ---
 
@@ -29,7 +90,7 @@ feels closer to the website experience.
 
 ### Native Windows terminal
 
-Run Anthracode directly in PowerShell or Windows Terminal — no WSL required.
+Run Anthracode directly in PowerShell or Windows Terminal, no WSL required.
 
 <img src="assets/readme/windows-native.gif" alt="Anthracode running natively in PowerShell without WSL" width="100%">
 
@@ -82,27 +143,16 @@ your project defaults.
 
 ---
 
-## What is Anthracode?
-
-Anthracode is an AI coding assistant that runs in your terminal as a full-screen
-TUI. Connect it to the model/provider you already use, then ask it to inspect,
-edit, test, refactor, and explain your codebase.
-
-Anthracode works on your **local files and local tools**. There is no required
-cloud workspace and no required Anthracode account to use the terminal agent.
-
----
-
 ## Highlights
 
-- **Terminal-native workflow** — ask, plan, build, review, and run commands from one TUI.
-- **Local-first by default** — your code stays on your machine and is sent only to the model provider you configure.
-- **Native Windows support** — real Windows x64 binary, PowerShell-friendly paths, ConPTY-backed terminal handling.
-- **Linux x64 support** — published optional binary for fast installs.
-- **Persistent memory** — preserve useful context and project knowledge across sessions.
-- **Specialized agents** — use focused agents for planning, building, testing, security review, refactoring, and architecture.
-- **Rich tool system** — files, shell, PTY sessions, code search, LSP, notebooks, web search, MCP, checkpoints, and worktrees.
-- **Safer autonomous work** — permission gates, timeouts, checkpoints, type checks, and test runners.
+- **Terminal-native workflow.** Ask, plan, build, review, and run commands from one TUI.
+- **Local-first by default.** Your code stays on your machine and is sent only to the model provider you configure.
+- **Native Windows support.** Real Windows x64 binary, PowerShell-friendly paths, ConPTY-backed terminal handling.
+- **Linux x64 support.** Published optional binary for fast installs.
+- **Persistent memory.** Preserve useful context and project knowledge across sessions.
+- **Specialized agents.** Use focused agents for planning, building, testing, security review, refactoring, and architecture.
+- **Rich tool system.** Files, shell, PTY sessions, code search, LSP, notebooks, web search, MCP, checkpoints, and worktrees.
+- **Safer autonomous work.** Permission gates, timeouts, checkpoints, type checks, and test runners.
 
 ---
 
@@ -142,17 +192,6 @@ is missing or too old, it installs a local Node.js runtime under
 
 ---
 
-## Supported platforms
-
-| Platform | Status | Notes |
-| --- | --- | --- |
-| Windows x64 | ✅ Supported | Native binary. Works in PowerShell and Windows Terminal. |
-| Linux x64 | ✅ Supported | Native optional npm binary. Works well in WSL too. |
-| macOS | 🚧 Planned | Apple Silicon and Intel builds are planned. |
-| Linux arm64 | 🚧 Planned | Not shipped yet. |
-
----
-
 ## Quick start
 
 ```bash
@@ -188,6 +227,17 @@ Refactor the billing API route and run the tests after each change.
 
 ---
 
+## Supported platforms
+
+| Platform | Status | Notes |
+| --- | --- | --- |
+| Windows x64 | ✅ Supported | Native binary. Works in PowerShell and Windows Terminal. |
+| Linux x64 | ✅ Supported | Native optional npm binary. Works well in WSL too. |
+| macOS | 🚧 Planned | Apple Silicon and Intel builds are planned. |
+| Linux arm64 | 🚧 Planned | Not shipped yet. |
+
+---
+
 ## Core tools
 
 | Tool area | What Anthracode can do |
@@ -211,7 +261,7 @@ Refactor the billing API route and run the tests after each change.
 | Ask | Read-only help, explanations, codebase questions. |
 | Plan | Design an implementation before making changes. |
 | Build | Edit files, run tools, and implement changes. |
-| Tester | Write/run tests and report failures. |
+| Tester | Write and run tests, report failures. |
 | Security | Read-only OWASP-style review. |
 | Refactor | Improve existing code while preserving behavior. |
 | Architect | Produce structured implementation plans. |
@@ -246,7 +296,7 @@ Mistral, Bedrock, Azure, Ollama, LM Studio, and OpenAI-compatible endpoints.
 Anthracode is **local-first**.
 
 - Your files are read from your local machine.
-- Prompts/context are sent only to the model provider you configure.
+- Prompts and context are sent only to the model provider you configure.
 - No Anthracode cloud account is required for the terminal agent.
 - No analytics SDK is required for local CLI usage.
 
@@ -304,11 +354,11 @@ Use Windows Terminal or PowerShell for the best native experience.
 | Windows x64 CLI | ✅ Supported |
 | Linux x64 CLI | ✅ Supported |
 | Terminal TUI | ✅ Supported |
-| Memory/tools/agents | ✅ Supported |
+| Memory / tools / agents | ✅ Supported |
 | macOS binaries | 🚧 Planned |
 | Linux arm64 binary | 🚧 Planned |
 | Browser-hosted chat UI | ❌ Not currently supported |
-| Hosted model gateway/subscription | ❌ Not currently supported |
+| Hosted model gateway / subscription | ❌ Not currently supported |
 
 ---
 
