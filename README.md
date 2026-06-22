@@ -180,7 +180,7 @@ yarn global add anthracode-ai
 anthracode
 ```
 
-### Linux / WSL curl installer
+### macOS / Linux / WSL curl installer
 
 ```bash
 curl -fsSL https://www.anthracode.com/install | bash
