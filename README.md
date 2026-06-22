@@ -5,7 +5,7 @@
 **A local-first AI coding agent for your terminal.**
 
 Read, edit, refactor, run commands, manage context, use specialized agents, and
-ship code from a fast TUI, with native Windows x64 and Linux x64 support.
+ship code from a fast TUI, with native macOS, Windows, and Linux binaries.
 
 ```bash
 npm install -g anthracode-ai
@@ -14,7 +14,7 @@ anthracode
 
 [![npm version](https://img.shields.io/npm/v/anthracode-ai?color=B8763B&label=anthracode-ai)](https://www.npmjs.com/package/anthracode-ai)
 [![downloads](https://img.shields.io/npm/dm/anthracode-ai?color=B8763B&label=downloads)](https://www.npmjs.com/package/anthracode-ai)
-[![platforms](https://img.shields.io/badge/platforms-Windows%20x64%20%7C%20Linux%20x64-444)](#supported-platforms)
+[![platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20Windows%20%7C%20Linux-444)](#supported-platforms)
 [![license](https://img.shields.io/badge/releases-MIT-444)](LICENSE)
 
 [Website](https://www.anthracode.com) · [Docs](https://docs.anthracode.com) · [npm](https://www.npmjs.com/package/anthracode-ai) · [Report an issue](../../issues)
@@ -147,6 +147,7 @@ your project defaults.
 
 - **Terminal-native workflow.** Ask, plan, build, review, and run commands from one TUI.
 - **Local-first by default.** Your code stays on your machine and is sent only to the model provider you configure.
+- **Native macOS support.** Apple Silicon (arm64) and Intel (x64) binaries.
 - **Native Windows support.** Real Windows x64 binary, PowerShell-friendly paths, ConPTY-backed terminal handling.
 - **Linux x64 support.** Published optional binary for fast installs.
 - **Persistent memory.** Preserve useful context and project knowledge across sessions.
@@ -231,9 +232,10 @@ Refactor the billing API route and run the tests after each change.
 
 | Platform | Status | Notes |
 | --- | --- | --- |
+| macOS (Apple Silicon) | ✅ Supported | Native arm64 binary. |
+| macOS (Intel) | ✅ Supported | Native x64 binary. |
 | Windows x64 | ✅ Supported | Native binary. Works in PowerShell and Windows Terminal. |
 | Linux x64 | ✅ Supported | Native optional npm binary. Works well in WSL too. |
-| macOS | 🚧 Planned | Apple Silicon and Intel builds are planned. |
 | Linux arm64 | 🚧 Planned | Not shipped yet. |
 
 ---
@@ -351,11 +353,11 @@ Use Windows Terminal or PowerShell for the best native experience.
 
 | Area | Status |
 | --- | --- |
+| macOS binaries (Apple Silicon + Intel) | ✅ Supported |
 | Windows x64 CLI | ✅ Supported |
 | Linux x64 CLI | ✅ Supported |
 | Terminal TUI | ✅ Supported |
 | Memory / tools / agents | ✅ Supported |
-| macOS binaries | 🚧 Planned |
 | Linux arm64 binary | 🚧 Planned |
 | Browser-hosted chat UI | ❌ Not currently supported |
 | Hosted model gateway / subscription | ❌ Not currently supported |
