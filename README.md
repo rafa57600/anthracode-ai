@@ -149,7 +149,7 @@ your project defaults.
 - **Local-first by default.** Your code stays on your machine and is sent only to the model provider you configure.
 - **Native macOS support.** Apple Silicon (arm64) and Intel (x64) binaries.
 - **Native Windows support.** Real Windows x64 binary, PowerShell-friendly paths, ConPTY-backed terminal handling.
-- **Linux x64 support.** Published optional binary for fast installs.
+- **Linux support.** Native binaries for x64 and arm64, glibc and musl — bare metal, WSL, Docker, and Alpine containers.
 - **Persistent memory.** Preserve useful context and project knowledge across sessions.
 - **Specialized agents.** Use focused agents for planning, building, testing, security review, refactoring, and architecture.
 - **Rich tool system.** Files, shell, PTY sessions, code search, LSP, notebooks, web search, MCP, checkpoints, and worktrees.
@@ -236,7 +236,9 @@ Refactor the billing API route and run the tests after each change.
 | macOS (Intel) | ✅ Supported | Native x64 binary. |
 | Windows x64 | ✅ Supported | Native binary. Works in PowerShell and Windows Terminal. |
 | Linux x64 | ✅ Supported | Native optional npm binary. Works well in WSL too. |
-| Linux arm64 | 🚧 Planned | Not shipped yet. |
+| Linux arm64 | ✅ Supported | Native binary — AWS Graviton, Raspberry Pi, ARM servers. |
+| Linux x64 (Alpine/musl) | ✅ Supported | Native musl binary for Alpine-based containers. |
+| Linux arm64 (Alpine/musl) | ✅ Supported | Native musl binary — Alpine on ARM. |
 
 ---
 
