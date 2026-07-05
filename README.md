@@ -71,6 +71,7 @@ actually change how the agent feels day to day, not an exhaustive feature dump.
 | Interactive terminal sessions (real keystrokes, crash-isolated PTY) | ✅ | ❌ | background shell | ❌ |
 | Background process manager (dev servers, watchers) | first class | ❌ | partial | ❌ |
 | Specialized subagents with scoped permissions | 5 built-in | generic | configure yourself | ❌ |
+| Background subagents: steer mid-flight, auto-notified on finish, run on a cheaper/stronger model per task | ✅ | ❌ | ✅ | partial |
 | Native Windows TUI (ConPTY, alternate screen, no WSL) | first class | rough | ✅ | WSL recommended |
 | Any model provider, your keys, local LLMs included | ✅ | ✅ | Anthropic only | OpenAI only |
 | Free to start, no subscription required | yes, your keys | ✅ | sub or API | ChatGPT sub |
@@ -97,7 +98,9 @@ Run Anthracode directly in PowerShell or Windows Terminal, no WSL required.
 ### Background process manager
 
 Start long-running commands, keep them visible, and reconnect to their output
-without losing control of your session.
+without losing control of your session. Background subagents live in the same
+panel: watch them work, open their live output, stop them with a key — and send
+them course corrections mid-flight instead of killing and restarting.
 
 <img src="assets/readme/background-process-manager.gif" alt="Anthracode background process manager demo" width="100%">
 
