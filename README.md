@@ -361,9 +361,9 @@ Use Windows Terminal or PowerShell for the best native experience.
 | macOS binaries (Apple Silicon + Intel) | ✅ Supported |
 | Windows x64 CLI | ✅ Supported |
 | Linux x64 CLI | ✅ Supported |
+| Linux arm64 CLI | ✅ Supported |
 | Terminal TUI | ✅ Supported |
 | Memory / tools / agents | ✅ Supported |
-| Linux arm64 binary | 🚧 Planned |
 | Browser-hosted chat UI | ❌ Not currently supported |
 | Hosted model gateway / subscription | ❌ Not currently supported |
 
