@@ -151,7 +151,7 @@ your project defaults.
 - **Terminal-native workflow.** Ask, plan, build, review, and run commands from one TUI.
 - **Local-first by default.** Your code stays on your machine and is sent only to the model provider you configure.
 - **Native macOS support.** Apple Silicon (arm64) and Intel (x64) binaries.
-- **Native Windows support.** Real Windows x64 binary, PowerShell-friendly paths, ConPTY-backed terminal handling.
+- **Native Windows support.** Real Windows x64 binary, PowerShell-friendly paths, ConPTY-backed terminal handling, hardened background-process reliability.
 - **Linux support.** Native binaries for x64 and arm64, glibc and musl — bare metal, WSL, Docker, and Alpine containers.
 - **Persistent memory.** Preserve useful context and project knowledge across sessions.
 - **Specialized agents.** Use focused agents for planning, building, testing, security review, refactoring, and architecture.
